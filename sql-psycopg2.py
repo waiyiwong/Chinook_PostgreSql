@@ -12,7 +12,7 @@ cursor = connection.cursor()
 # Query 2 - select only the "Name" column from the "Artist" table
 # cursor.execute('SELECT "Name" FROM "Artist"')
 
-# Query 3 - select only "Queen" from the "Artist" table
+# Query 3 - select only "Queen" from the "Artist" table. %s is the Python string placeholder
 # cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])
 
 # Query 4 - select only by "ArtistId" #51 from the "Artist" table
