@@ -16,7 +16,6 @@ class Artist(base):
     ArtistId = Column(Integer, primary_key=True)
     Name = Column(String)
 
-
 # create a class-based model for the "Album" table
 class Album(base):
     __tablename__ = "Album"
